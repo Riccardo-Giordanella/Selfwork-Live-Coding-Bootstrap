@@ -1,0 +1,76 @@
+/* CSS Generale per tutta la pagina */
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+:root{
+    --y: rgb(235, 220, 14);
+    --b: rgb(27, 21, 64);
+    --v: rgb(109, 30, 131);
+    --bs: rgb(20, 9, 37);
+    --g: rgb(33, 37, 41);
+}
+
+/* heder */
+
+.bg-custom-1{
+    background-image: url(./media/bg-1.jpg);
+}
+
+.fa-calendar{
+    color: var(--y);
+}
+
+/* Sezione 1 */
+
+.bg-custom-2{
+    background-color: var(--bs);
+}
+
+/* Sezione 2 */
+
+.cal-form{
+    font-size: 50px;
+    margin-right: 20px;
+    background-color: var(--y);
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+.bg-custom-3{
+    min-height: 70vh;
+    background-image: url(./media/bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-style{
+    background-color: var(--b);
+    padding: 70px 20px;
+    top: 100px;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--v);
+}
+
+/* Sezione 3 */
+
+.bg-custom-4{
+    background-color: var(--bs);
+    padding: 100px 20px;
+}
+
+.chi-e{
+    color: var(--y);
+}
+
+/* Sezione 4 */
+
+.bg-custom-5{
+    background-image: url(./media/bg-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
